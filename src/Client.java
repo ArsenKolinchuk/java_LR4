@@ -1,4 +1,28 @@
-package PACKAGE_NAME;
-
 public class Client {
+
+    private String name;
+    private String sex;
+    private String phoneNumber;
+    private String address;
+    private String email;
+
+    public Client(
+            String name,
+            String sex,
+            String phoneNumber,
+            String address,
+            String email
+    ) {
+
+        this.name = name;
+        this.sex = sex;
+        this.phoneNumber = phoneNumber;
+        this.address = address;
+        this.email = email;
+    }
+
+    public String getName() {
+
+        return name;
+    }
 }
