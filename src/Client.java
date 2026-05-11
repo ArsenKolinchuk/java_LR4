@@ -6,13 +6,7 @@ public class Client {
     private String address;
     private String email;
 
-    public Client(
-            String name,
-            String sex,
-            String phoneNumber,
-            String address,
-            String email
-    ) {
+    public Client(String name, String sex, String phoneNumber, String address, String email) {
 
         this.name = name;
         this.sex = sex;
@@ -22,7 +16,6 @@ public class Client {
     }
 
     public String getName() {
-
         return name;
     }
 }
