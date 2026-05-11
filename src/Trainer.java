@@ -17,14 +17,7 @@ public class Trainer {
         this.phoneNumber = phoneNumber;
         this.email = email;
     }
-
     public void trainClient(Client client) {
-
-        System.out.println(
-                "Trainer "
-                        + fullName
-                        + " trains "
-                        + client.getName()
-        );
+        System.out.println("Trainer " + fullName+ " trains "+ client.getName());
     }
 }
